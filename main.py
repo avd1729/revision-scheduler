@@ -8,7 +8,7 @@ import json
 load_dotenv()
 
 def main():
-    NOTION_KEY = os.getenv("NOTION_KEY")  # Ensure you set this environment variable
+    NOTION_KEY = os.getenv("NOTION_KEY")
     
     if not NOTION_KEY:
         print("Error: Notion API key is missing. Set NOTION_KEY as an environment variable.")

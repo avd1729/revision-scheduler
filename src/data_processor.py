@@ -77,7 +77,7 @@ class DataProcessor:
             "URL": df['url']
         })
 
-    def assign_questions_per_day(self, df, questions_per_day=10):
+    def assign_questions_per_day(self, df, questions_per_day=8):
         """
         Randomly shuffle the questions and assign 5 per day, starting from tomorrow.
 
